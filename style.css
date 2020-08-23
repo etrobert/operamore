@@ -9,7 +9,6 @@ body {
   font-family: sans-serif;
 
   text-align: center;
-  padding-top: 2rem;
 }
 
 @font-face {
@@ -22,15 +21,20 @@ h1 {
   font-family: 'Title';
   position: absolute;
   color: var(--color-dark);
-  font-size: 7vw;
-  left: 2.5em;
-  top: 0.5em;
+  font-size: 7.5vw;
+  left: 1em;
+  top: 3.5em;
+  transform: rotate(2.5deg);
 }
 
 section {
-  padding: 1rem 20rem 1rem 20rem ;
+  padding: 1rem 20% 1rem 20% ;
 }
 
-img {
-  width: 80%;
+#mainImage {
+  width: 100%;
+}
+
+#colorfulImage {
+  width : 80%;
 }
