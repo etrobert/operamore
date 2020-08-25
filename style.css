@@ -3,12 +3,11 @@ body {
   margin: 0;
   --color-dark: #29262d;
   --color-light: white;
-  background-color: var(--color-dark);
+  background-color: white;
   color: var(--color-light);
 
   font-family: sans-serif;
 
-  text-align: center;
 }
 
 @font-face {
@@ -21,7 +20,7 @@ h1 {
   font-family: 'Title';
   position: absolute;
   color: var(--color-dark);
-  font-size: 7.5vw;
+  font-size: 81px;
   left: 1em;
   top: 3.5em;
   transform: rotate(2.5deg);
@@ -32,7 +31,6 @@ section {
 }
 
 #mainImage {
-  width: 100%;
 }
 
 #colorfulImage {
