@@ -2,7 +2,7 @@
 
 const serverAddress = "http://localhost:3000";
 
-function addDate(then) {
+function addDate(date, then) {
   const request = new XMLHttpRequest();
   request.onreadystatechange = () => {
     if (request.readyState === XMLHttpRequest.DONE && request.status === 200) {
@@ -11,7 +11,7 @@ function addDate(then) {
   };
   request.open("POST", serverAddress + "/dates", true);
   request.setRequestHeader("Content-Type", "application/json");
-  request.send(JSON.stringify({ date: new Date() }));
+  request.send(JSON.stringify({ date }));
 }
 
 function loadDates(then) {
