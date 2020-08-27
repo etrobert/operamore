@@ -16,7 +16,7 @@ body {
   src: url("resources/fonts/blacksword/Blacksword.otf");
 }
 
-h1 {
+#mainTitle {
   margin-top: 0;
   font-family: "Title";
   position: absolute;
