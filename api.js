@@ -24,3 +24,14 @@ function loadDates(then) {
   request.open("GET", serverAddress + "/dates", true);
   request.send();
 }
+
+function deleteDate(dateId, then) {
+  const request = new XMLHttpRequest();
+  request.onreadystatechange = () => {
+    if (request.readyState === XMLHttpRequest.DONE && request.status === 200) {
+      then();
+    }
+  };
+  request.open("DELETE", serverAddress + `/dates/${dateId}`, true);
+  request.send();
+}

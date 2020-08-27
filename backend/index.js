@@ -27,6 +27,12 @@ app.get("/dates", (req, res) => {
   res.send(dates);
 });
 
+app.delete("/dates/:id", (req, res) => {
+  const index = dates.findIndex((date) => date.id == req.params.id);
+  if (index != -1) dates.splice(index, 1);
+  res.send("OK");
+});
+
 app.listen(port, () => {
   console.log(`App is listening on port ${port}`);
 });

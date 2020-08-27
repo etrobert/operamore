@@ -4,7 +4,8 @@ function addDateToHtml(date) {
 
   let deleteButton = document.createElement("button");
   deleteButton.textContent = "Delete";
-  deleteButton.onclick = () => console.log(`Deleting Date ${date.id}`);
+  deleteButton.onclick = () =>
+    deleteDate(date.id, () => datesList.removeChild(element));
   element.appendChild(deleteButton);
 
   datesList.appendChild(element);
