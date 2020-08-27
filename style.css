@@ -12,13 +12,13 @@ body {
 }
 
 @font-face {
-    font-family: 'Title';
-    src: url('resources/fonts/blacksword/Blacksword.otf');
+  font-family: "Title";
+  src: url("resources/fonts/blacksword/Blacksword.otf");
 }
 
 h1 {
   margin-top: 0;
-  font-family: 'Title';
+  font-family: "Title";
   position: absolute;
   color: var(--color-dark);
   font-size: 7.5vw;
@@ -28,7 +28,7 @@ h1 {
 }
 
 section {
-  padding: 1rem 20% 1rem 20% ;
+  padding: 1rem 20% 1rem 20%;
 }
 
 #mainImage {
@@ -36,5 +36,5 @@ section {
 }
 
 #colorfulImage {
-  width : 80%;
+  width: 80%;
 }
