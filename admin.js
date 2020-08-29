@@ -1,6 +1,6 @@
 function addDateToHtml(date) {
   let element = document.createElement("li");
-  element.textContent = date.date.toLocaleString();
+  element.textContent = formatDate(date.date);
 
   let deleteButton = document.createElement("button");
   deleteButton.textContent = "Delete";

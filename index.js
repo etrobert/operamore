@@ -4,7 +4,7 @@ const datesList = document.getElementById("datesList");
 
 function addDateToHtml(date) {
   let element = document.createElement("li");
-  element.textContent = date.date.toLocaleString();
+  element.textContent = formatDate(date.date);
   datesList.appendChild(element);
 }
 
