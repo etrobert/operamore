@@ -1,6 +1,6 @@
 "use strict";
 
-const serverAddress = "http://localhost:3000";
+const serverAddress = "http://51.83.98.45:3000";
 
 function parseDate(date) {
   return { id: date.id, date: new Date(date.date) };
