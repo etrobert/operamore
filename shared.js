@@ -1,3 +1,5 @@
+"use strict";
+
 function formatDate(date) {
   const daysOfWeek = ["So.", "Mo.", "Die.", "Mi.", "Do.", "Fr.", "Sa."];
   const dayOfWeek = daysOfWeek[date.getDay()].padEnd(4);
