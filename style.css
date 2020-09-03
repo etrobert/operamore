@@ -33,7 +33,7 @@ section {
 }
 
 .dates {
-  font-family: monospace;
+  /* font-family: monospace; */
   white-space: pre-wrap;
 }
 
@@ -48,4 +48,12 @@ section {
 ul {
   padding-left: 0;
   list-style-type: none;
+}
+
+a {
+  color: white;
+}
+
+#mail {
+  text-decoration: none;
 }

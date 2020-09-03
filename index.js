@@ -8,6 +8,8 @@ function addDateToHtml(date) {
   datesList.appendChild(element);
 }
 
+/*
 loadDates((dates) => {
   dates.forEach(addDateToHtml);
 });
+*/
