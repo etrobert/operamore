@@ -40,8 +40,10 @@ header {
 #scrollIcon {
   position: absolute;
   bottom: 0;
-  width: 4rem;
-  height: 4rem;
+  --size: 4rem;
+  left: calc((100vw - var(--size)) / 2);
+  width: var(--size);
+  height: var(--size);
   stroke: var(--color-light);
   opacity: 0%;
   animation: bouncing 3s 4s infinite ease-in-out, appearance 2s 2s;
