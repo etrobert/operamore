@@ -3,10 +3,11 @@ body {
   margin: 0;
 
   --color-dark: rgb(30, 30, 30);
-  --color-light: white;
+  --color-lighter: white;
+  --color-light: rgb(220, 220, 220);
 
   background-color: var(--color-dark);
-  color: var(--color-light);
+  color: var(--color-lighter);
 
   font-family: Text;
 
@@ -32,8 +33,40 @@ header {
 
 #mainTitle {
   font-family: "Title";
-  color: var(--color-light);
+  color: var(--color-lighter);
   font-size: 9vh;
+}
+
+#scrollIcon {
+  position: absolute;
+  bottom: 0;
+  width: 4rem;
+  height: 4rem;
+  stroke: var(--color-light);
+  opacity: 0%;
+  animation: bouncing 3s 4s infinite ease-in-out, appearance 2s 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes appearance {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes bouncing {
+  from {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 main {
@@ -90,6 +123,7 @@ a {
       "bwimg   bwimg   bwimg   bwimg   bwimg   bwimg bwimg dates dates dates dates dates"
       "contact contact contact contact contact cimg  cimg  cimg  cimg  cimg  cimg  cimg";
     margin-bottom: 4.5rem;
+    margin-top: 4.5rem;
   }
 }
 @media (max-width: 999px) {
@@ -101,6 +135,7 @@ a {
       ".       cimg    cimg    cimg    cimg    cimg    cimg    cimg    cimg    cimg"
       "contact contact contact contact contact contact contact contact contact contact";
     margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 }
 
