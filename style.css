@@ -34,7 +34,7 @@ header {
 #mainTitle {
   font-family: "Title";
   color: var(--color-lighter);
-  font-size: 9vh;
+  font-size: 3rem;
 }
 
 #scrollIcon {
@@ -118,6 +118,10 @@ a {
 }
 
 @media (min-width: 1000px) {
+  #mainTitle {
+    font-size: 6rem;
+  }
+
   main {
     grid-template-columns: repeat(11, 1fr);
     row-gap: 9rem;
