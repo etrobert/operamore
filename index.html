@@ -1,59 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>OperAmore</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <h1 id="mainTitle">OperAmore</h1>
-    <img id="mainImage" src="resources/images/05_cropped.jpeg" />
-    <section>
-      <h2>Nächste Termine</h2>
-      <ul id="datesList" class="dates">
-        <li>Mo. 14.09.2020 - 18:30</li>
-      </ul>
-    </section>
-    <img
-      id="colorfulImage"
-      src="resources/images/IMG_20200730_210752-01-01.jpeg"
-    />
-    <!--
-    <section>
-      <h2>OperAmore</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </p>
-    </section>
-    -->
-    <section>
-      <h2>Contact</h2>
-      <a id="mail" href="mailto:operamoreberlin@gmail.com">operamoreberlin@gmail.com</p>
-      <a id="instagramLink" href="https://www.instagram.com/oper.amore/">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="feather feather-instagram"
-        >
-          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-        </svg>
-      </a>
-    </section>
+    <header>
+      <h1 id="mainTitle">OperAmore</h1>
+    </header>
+    <main>
+      <img id="blackAndWhiteImage" src="resources/images/05_cropped.jpeg" />
+      <section id="dates">
+        <h2>Nächste Termine</h2>
+        <ul id="datesList" class="dates">
+          <li>Mo. 14.09.2020 - 18:30</li>
+        </ul>
+      </section>
+      <img
+        id="colorfulImage"
+        src="resources/images/IMG_20200730_210752-01-01.jpeg"
+      />
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          <a id="mail" href="mailto:operamoreberlin@gmail.com"
+            >operamoreberlin@gmail.com</a
+          >
+        </p>
+        <p>
+          <a id="instagramLink" href="https://www.instagram.com/oper.amore/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-instagram"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+        </p>
+      </section>
+    </main>
+    <footer>
+      Website: <a href="https://github.com/etrobert">Étienne Robert</a>
+    </footer>
   </body>
   <script src="shared.js"></script>
   <script src="api.js"></script>
