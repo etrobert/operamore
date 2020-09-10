@@ -48,6 +48,7 @@ header {
   opacity: 0%;
   animation: bouncing 3s 4s infinite ease-in-out, appearance 2s 2s;
   animation-fill-mode: forwards;
+  cursor: pointer;
 }
 
 @keyframes appearance {
