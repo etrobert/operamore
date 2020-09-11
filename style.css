@@ -87,6 +87,10 @@ section {
   white-space: pre-wrap; */
 }
 
+img {
+  height: auto;
+}
+
 #blackAndWhiteImage {
   grid-area: bwimg;
   width: 100%;
