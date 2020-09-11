@@ -87,7 +87,8 @@ section {
   white-space: pre-wrap; */
 }
 
-img {
+img,
+placeholder-image {
   height: auto;
 }
 

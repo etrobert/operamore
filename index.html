@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>OperAmore</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script defer src="index.js"></script>
+    <script defer type="module" src="index.js"></script>
   </head>
   <body>
     <header>
@@ -26,6 +26,13 @@
       </svg>
     </header>
     <main>
+      <placeholder-image
+        id="blackAndWhiteImage"
+        src="resources/images/05_cropped.jpeg"
+        width="1080"
+        height="609"
+      ></placeholder-image>
+      <!--
       <img
         id="blackAndWhiteImage"
         loading="lazy"
@@ -33,6 +40,7 @@
         width="1080"
         height="609"
       />
+      -->
       <section id="dates">
         <h2>Nächste Termine</h2>
         <ul id="datesList" class="dates">
