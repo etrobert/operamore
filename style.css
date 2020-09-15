@@ -83,8 +83,11 @@ section {
 }
 
 .dates {
-  /* font-family: monospace;
-  white-space: pre-wrap; */
+  /* font-family: monospace; */
+}
+
+.dates li {
+  white-space: pre-wrap;
 }
 
 img {
