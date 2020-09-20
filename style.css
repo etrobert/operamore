@@ -15,13 +15,13 @@ body {
 }
 
 @font-face {
-  font-family: "Title";
-  src: url("resources/fonts/blacksword/Blacksword.otf");
+  font-family: 'Title';
+  src: url('resources/fonts/blacksword/Blacksword.otf');
 }
 
 @font-face {
-  font-family: "Text";
-  src: url("resources/fonts/Kumbh_Sans/KumbhSans-Regular.ttf");
+  font-family: 'Text';
+  src: url('resources/fonts/Kumbh_Sans/KumbhSans-Regular.ttf');
 }
 
 header {
@@ -32,7 +32,7 @@ header {
 }
 
 #mainTitle {
-  font-family: "Title";
+  font-family: 'Title';
   color: var(--color-lighter);
   font-size: 3rem;
 }
@@ -134,8 +134,8 @@ a {
     grid-template-columns: repeat(11, 1fr);
     row-gap: 9rem;
     grid-template-areas:
-      "bwimg   bwimg   bwimg   bwimg   bwimg   bwimg bwimg dates dates dates dates dates"
-      "contact contact contact contact contact cimg  cimg  cimg  cimg  cimg  cimg  cimg";
+      'bwimg   bwimg   bwimg   bwimg   bwimg   bwimg bwimg dates dates dates dates dates'
+      'contact contact contact contact contact cimg  cimg  cimg  cimg  cimg  cimg  cimg';
     margin-bottom: 4.5rem;
     margin-top: 4.5rem;
   }
@@ -144,10 +144,10 @@ a {
   main {
     grid-template-columns: repeat(10, 1fr);
     grid-template-areas:
-      "bwimg   bwimg   bwimg   bwimg   bwimg   bwimg   bwimg   bwimg   bwimg   ."
-      "dates   dates   dates   dates   dates   dates   dates   dates   dates   dates"
-      ".       cimg    cimg    cimg    cimg    cimg    cimg    cimg    cimg    cimg"
-      "contact contact contact contact contact contact contact contact contact contact";
+      'bwimg   bwimg   bwimg   bwimg   bwimg   bwimg   bwimg   bwimg   bwimg   .'
+      'dates   dates   dates   dates   dates   dates   dates   dates   dates   dates'
+      '.       cimg    cimg    cimg    cimg    cimg    cimg    cimg    cimg    cimg'
+      'contact contact contact contact contact contact contact contact contact contact';
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
